@@ -1,0 +1,91 @@
+html {
+    border: 16px solid #560606;
+    background-color: #000000;
+}
+
+#info-message {
+    color: white;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 3em;
+    border: 2px double white;
+    border-radius: 0.5em;
+    padding: 1em;
+    height: auto;
+    background-color: #000000;
+}
+
+#info-message p {
+    margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    #info-message {
+        border: none;
+        padding: 1em;
+        text-align: justify;
+    }
+}
+
+#AI {
+    margin-top: 3em;
+    text-align: center;
+}
+
+#AI h2 {
+    font-size: 2em;
+    color: #ff4d4d;
+}
+
+#AI video {
+    width: 30%;
+    height: auto;
+    border: 5px solid #9a2b2b;
+    border-radius: 0.5em;
+    margin-top: 1em;
+}
+
+table {
+    width: 80%;
+    margin: 3em auto;
+    border-collapse: collapse;
+}
+
+table caption {
+    font-size: 1.5em;
+    color: white;
+    padding-bottom: 0.5em;
+    text-align: left;
+}
+
+table th, table td {
+    border: 2px solid #660c0c;
+    padding: 0.5em;
+    font-family: "IBM Plex Mono", monospace;
+    color: white;
+}
+
+table th {
+    background-color: #560606;
+}
+
+table tr:nth-child(even) {
+    background-color: #333;
+}
+
+table tr:nth-child(odd) {
+    background-color: #444;
+}
+
+footer {
+    text-align: center;
+    font-family: "Rubik Glitch", cursive;
+    color: #660c0c;
+    margin-top: 2em;
+}

@@ -1,0 +1,18 @@
+body{
+    background-image: url(../images/im.png);
+    background-size: 1300px 980px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+footer p{
+  position: static;
+  margin-top:15em ;
+}
+
+@media screen and (max-width: 600px) {
+    nav{
+        width: 50%;
+    }
+}

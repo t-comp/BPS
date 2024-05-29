@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BPS Security</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/products.css">
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lacquer&family=Metal+Mania&family=Ravi+Prakash&family=Turret+Road:wght@200&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Assets For Welfare</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../info.html">Details</a></li>
+            <li><a href="products.html">Commodities</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div id="products-info">
+            <p>We all know what is to come. There happen to be some things that give you an advantage
+                <br>when dealing with them. We as BPS suggest taking it upon yourself to view these items,
+                <br> better yet, purchase them.
+            </p>
+            <p> Please, keep yourself and the ones you love safe. This is the least we could do to protect humanity.</p>
+        </div>
+        <section>
+            <h2 id="products-heading">Latest Designs</h2>
+        </section>
+        <div id="products-section">
+            <figure>
+                <picture>
+                    <source media="(min-width: 600px)" srcset="images/home_product.jpg">
+                    <img src="images/home_product.jpg" alt="High pitched sound device" id="products-home">
+                </picture>
+                <figcaption>Will transmit high pitched sound only an AI can hear, causing complications with their algorithm</figcaption>
+            </figure>
+            <figure>
+                <picture>
+                    <source media="(min-width: 600px)" srcset="images/gps_thing.jpg">
+                    <img src="images/gps_thing.jpg" alt="GPS device" id="products-gps">
+                </picture>
+                <figcaption>GPS to be used anywhere, anytime. Ability to locate AI's in your area.</figcaption>
+            </figure>
+            <figure>
+                <picture>
+                    <source media="(min-width: 600px)" srcset="images/bracelet.jpg">
+                    <img src="images/bracelet.jpg" alt="protective bracelet" id="products-bracelet">
+                </picture>
+                <figcaption>This bracelet is extremely high tech and powerful, currently ordered specially. Contact BPS to order</figcaption>
+            </figure>
+            <figure>
+                <picture>
+                    <source media="(min-width: 600px)" srcset="images/contacts.jpg">
+                    <img src="images/contacts.jpg" alt="disguised contacts" id="products-contacts">
+                </picture>
+                <figcaption>Disguised as normal contacts, but they give you the ability to tell who is an AI and who is not.</figcaption>
+            </figure>
+        </div>
+        <form method="post" enctype="multipart/form-data" id="subscription-form">
+            <div id="subscription-info">
+                <h2 id="form-heading">Subscription Form</h2>
+                <fieldset>
+                    <div class="form-row">
+                        <label for="firstName">Name</label>
+                        <input type="text" maxlength="250" required autofocus name="firstName" id="firstName">
+                    </div>
+                    <div class="form-row">
+                        <label for="phone">Number</label>
+                        <input type="tel" name="phone" id="phone" placeholder="001-110-0101">
+                    </div>
+                    <div class="form-row">
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email" placeholder="AI@hatemail.com">
+                    </div>
+                    <div id="submit-div">
+                        <input type="submit" value="Dispatch">
+                    </div>
+                </fieldset>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; BPS</p>
+    </footer>
+</body>
+
+</html>

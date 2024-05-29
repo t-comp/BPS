@@ -1,0 +1,238 @@
+body {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #000000;
+}
+
+header {
+    font-family: "Rubik Glitch", cursive;
+    color: #660c0c;
+}
+
+li a {
+    display: inline-block;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: "Rubik Glitch", cursive;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    float: right;
+}
+
+nav ul li a {
+    display: inline-block;
+    width: 10em;
+    padding: 1em;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: #660c0c;
+    background-color: #000000;
+}
+
+nav ul li a:hover {
+    background-color: #660c0c;
+    color: rgb(0, 0, 0);
+}
+
+h2 {
+    font-family: "Lacquer", cursive;
+    color: rgb(123, 27, 27);
+    font-size: 150px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+#form-info {
+    position: static;
+    font-size: 16px;
+    margin-top: 18em;
+}
+
+fieldset {
+    border-radius: 0.5em;
+    box-shadow: 0.1em 0.1em 0.1em rgb(206, 50, 50);
+}
+
+label {
+    color: rgb(205, 51, 51);
+    font-family: "Lacquer", cursive;
+    display: inline-block;
+}
+
+.form-row label {
+    display: inline-block;
+    width: 6em;
+    vertical-align: top;
+}
+
+#submit-div {
+    font-family: "IBM Plex Mono", monospace;
+}
+
+#video-section {
+    text-align: center;
+    margin-top: 10em;
+}
+
+video {
+    width: 60em;
+    height: 40em;
+    border: 10px solid #9a2b2b;
+    border-radius: 0.5em;
+}
+
+#video-section h2 {
+    text-align: center;
+    font-size: 45px;
+}
+
+#products-home {
+    max-width: 18em;
+    max-height: 18em;
+}
+
+#products-gps {
+    max-width: 18em;
+    max-height: 18em;
+}
+
+#products-contacts {
+    max-width: 18em;
+    max-height: 18em;
+}
+
+#products-bracelet {
+    max-width: 18em;
+    max-height: 18em;
+}
+
+figcaption {
+    color: aliceblue;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 12px;
+    text-align: center;
+}
+
+#products-display {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 15em;
+}
+
+#products-heading {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 60px;
+    position: relative;
+    margin-top: 2em;
+}
+
+table {
+    width: 95em;
+    position: sticky;
+    margin-top: 12em;
+}
+
+table th,
+td {
+    border: 1px solid rgb(0, 0, 0);
+    font-family: "IBM Plex Mono", monospace;
+}
+
+table caption {
+    font-size: 1.5em;
+    color: white;
+}
+
+table th {
+    color: black;
+    background-color: rgb(205, 51, 51);
+}
+
+table tr td:nth-child(4) {
+    text-align: right;
+}
+
+table tr:nth-child(odd) {
+    background-color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: rgb(205, 51, 51);
+}
+
+footer {
+    font-family: "Rubik Glitch", cursive;
+    color: #660c0c;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    h1 {
+        width: 50%;
+    }
+
+    h2 {
+        width: 90%;
+        font-family: "Lacquer", cursive;
+        color: rgb(205, 51, 51);
+        font-size: 80px;
+        text-align: center;
+        font-weight: lighter;
+    }
+
+    table {
+        width: 10%;
+    } 
+
+    #products-display {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #products-heading {
+        text-align: center;
+    }
+
+    label,
+    input[type="text"], input[type="tel"] {
+        display: inline-block;
+    }
+
+    .form-row {
+        display: inline-block;
+    }
+
+    textarea {
+        width: 50%;
+        height: 5em;
+    }
+
+    #video-section h2 {
+        position: relative;
+        margin-top: 12em;
+    }
+
+    video {
+        width: 60%;
+        height: 60%;
+        margin-top: 18em;
+    }
+}
